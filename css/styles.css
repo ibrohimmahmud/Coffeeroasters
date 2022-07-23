@@ -1,3 +1,10 @@
+/* CUSTOM PROPS */
+:root{
+    --color-beige: #F3D7B7;
+    --color-brown: #C99B67;
+    --color-marsh: #0A775F;
+    --text-color: #333;
+}
 html{
     box-sizing: border-box;
     height: 100%;
