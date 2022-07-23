@@ -69,7 +69,9 @@ img{
 }
 
 *:focus{
-    outline: 2px dashed #7296ec;
+    outline: 5px dotted var(--color-marsh);
+    outline-offset: 2px;
+    border-radius: 5px;
 }
 /* button */
 .button{
