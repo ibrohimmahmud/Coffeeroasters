@@ -213,4 +213,45 @@ img{
     opacity: 0.6;
 }
 
+/* SECTION-HERO */
+.hero{
+    padding-top: 115px;
+    padding-bottom: 250px;
+    background-image: url(../img/hero-bimg.jpg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 360px) bottom;
+    background-size: contain;
+
 }
+
+.hero-content{
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-heading{
+    width: 465px;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: var(--text-color);
+    --text-color: #000;
+}
+
+.hero-text{
+    width: 460px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 34px;
+    color: var(--text-color);
+    --text-color: #000;
+
+}
+
+
+
