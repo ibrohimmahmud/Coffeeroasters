@@ -111,6 +111,23 @@ img{
     background-color: var(--color-brown);
 }
 
+.button-marsh:active{
+    background-color: var(--color-brown-60);
+}
+
+.button-brown{
+    background-color: var(--color-brown);
+    color: #ffffff;
+}
+
+.button-brown:hover{
+    background-color: var(--color-beige);
+}
+
+.button-brown:active{
+    background-color: var(--color-beige-60);
+}
+
 /* visually-hidden */
 .visually-hidden {
     position: absolute;
