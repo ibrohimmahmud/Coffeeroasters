@@ -316,8 +316,99 @@ img{
     height: 696px;
 }
 
+.index-collection{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    /* background-image: url(../img/leaves.svg);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: right calc(50% + 670px) top calc(5%);
+    background-blend-mode: normal; */
 }
 
+.collection-container{
+    background-color: var(--color-grey);
+    padding: 0;
+    padding: 50px 143px;
+    /* background-image: url(../img/leaves.svg);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: right calc(50% + 670px) top calc(5%);
+    background-blend-mode: normal; */
+}
+
+.sections-heading{
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #000;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.collection-coffees-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coffees-collection-item{
+    display: flex;
+    align-items: center;
+}
+
+.coffees-collection-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+/* .coffees-collection-item:nth-child(odd) .coffees-collection-description{
+    padding-left: 117px;
+}
+.coffees-collection-item:nth-child(even) .coffees-collection-description{
+    padding-right: 117px;
+} */
+
+
+.coffees-collection-img{
+    flex-shrink: 0;
+    width: 450px;
+    height: 375px;
+    display: block;
+    object-fit: contain;
+}
+
+.coffees-collection-description{
+    padding-left: 117px;
+    padding-right: 117px;
+}
+
+.coffees-collection-description-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.coffees-collection-description-text{
+    margin: 0;
+    width: 390px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.55;
+}
+
+.description-four .coffees-collection-description-text{
+    width: 410px;
+}
 
 
 
