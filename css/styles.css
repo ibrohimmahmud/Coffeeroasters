@@ -145,9 +145,9 @@ img{
 /* CONTAINER */
 .container{
     width: 100%;
-    max-width: 1360px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -155,15 +155,19 @@ img{
 /* MAIN-CONTENT */
 .main{
     flex-grow: 1;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 /* HEADER, HERO */
 .header-hero{
     background-color: var(--color-beige);
-    background-image: url(../img/bcolor-pixel-style.png);
+}
+
+.pixel-bimg{
+    background-image: url(../img/pixel-bimg.png);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-blend-mode: overlay;
 }
 
