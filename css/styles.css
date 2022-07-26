@@ -1,9 +1,17 @@
 /* CUSTOM PROPS */
 :root{
     --color-beige: #F3D7B7;
+    --color-beige-80: rgba(243, 215, 183, 0.8);
+    --color-beige-60: rgba(243, 215, 183, 0.6);
     --color-brown: #C99B67;
+    --color-brown-80: rgba(201, 155, 103, 0.8);
+    --color-brown-60: rgba(201, 155, 103, 0.6);
     --color-marsh: #0A775F;
+    --color-marsh-80: rgba(10, 117, 94, 0.8);
+    --color-marsh-60: rgba(10, 117, 94, 0.6);;
     --text-color: #333;
+    --color-grey: #F8F8F2;
+    --outline-color: var(--color-marsh);
 }
 
 /* fonts */
